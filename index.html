@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+            crossorigin="anonymous">
+    </head>
+    <body>
+
+        <header>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container">
+                    <a class="navbar-brand" href="#">plant store</a>
+                    <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse"
+                        id="navbarSupportedContent">
+                        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page"
+                                    href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page"
+                                    href="about-us.html">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page"
+                                    href="products.html">Products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page"
+                                    href="contact-us.html">Contact Us</a>
+                            </li>
+
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search"
+                                placeholder="Search" aria-label="Search" />
+                            <button class="btn btn-outline-success"
+                                type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <!-- ========== Start banner ========== -->
+            <section class="banner">
+                <div class="container">
+                    <div id="carouselExampleIndicators" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button"
+                                data-bs-target="#carouselExampleIndicators"
+                                data-bs-slide-to="0" class="active"
+                                aria-current="true"
+                                aria-label="Slide 1"></button>
+                            <button type="button"
+                                data-bs-target="#carouselExampleIndicators"
+                                data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button"
+                                data-bs-target="#carouselExampleIndicators"
+                                data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img
+                                    src="https://www.rogersgardens.com/cdn/shop/files/Indoor_Plant_Banner_800x.jpg?v=1648502095"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img
+                                    src="https://www.shutterstock.com/image-photo/collection-various-tropical-houseplants-displayed-260nw-2043626339.jpg"
+                                    class="d-block w-100" alt="...">
+                            </div>
+
+                        </div>
+                        <button class="carousel-control-prev" type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"
+                                aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon"
+                                aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <!-- ========== End banner ========== -->
+            <!-- ========== Start about ========== -->
+            <section id="about" class="my-5">
+                <div class="container">
+                    <div
+                        class="row g-4 justify-content-between align-items-center">
+                        <div class="col-md-6">
+                            <h2>About Us</h2>
+                            <p>Lorem ipsum, dolor sit amet consectetur
+                                adipisicing elit. Excepturi, officia recusandae
+                                qui eum distinctio, deserunt blanditiis harum
+                                nulla cumque tempora repellendus et aspernatur
+                                adipisci quidem impedit quaerat quod expedita!
+                                Minima, quidem doloribus cupiditate nostrum, ut
+                                itaque eaque dolorem voluptatibus libero ratione
+                                ad molestiae voluptatum non! Tempora, doloribus
+                                itaque. Provident, beatae.</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc80GMYXhvZXMNDkIezldrJDaPAKM0rlv31A&s"
+                                alt class="img-fluid">
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ========== End about ========== -->
+            <!-- ========== Start products ========== -->
+
+            <section class="products my-4">
+                <div class="container">
+                    <div id="dateTime" class="mt-3 text-success"></div>
+                    <div class="contain text-center mb-4">
+                        <h3>Our Products</h3>
+                    </div>
+                    <div class="row g-4 justify-content-between">
+                        <div class="card col-lg-3" style="width: 18rem;">
+                            <img
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBFn8DfhJHiR7solAQ_kPWrZp5vW5fUfUVvg&s"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Flower Plants</h5>
+                                <p class="card-text">Price: <b>$19.99</b></p>
+                                <a href="#" class="btn btn-success">Add to
+                                    Cart</a>
+                            </div>
+                        </div>
+                        <div class="card col-lg-3" style="width: 18rem;">
+                            <img
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBFn8DfhJHiR7solAQ_kPWrZp5vW5fUfUVvg&s"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Flower Plants</h5>
+                                <p class="card-text">Price: <b>$19.99</b></p>
+                                <a href="#" class="btn btn-success">Add to
+                                    Cart</a>
+                            </div>
+                        </div>
+                        <div class="card col-lg-3" style="width: 18rem;">
+                            <img
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBFn8DfhJHiR7solAQ_kPWrZp5vW5fUfUVvg&s"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Flower Plants</h5>
+                                <p class="card-text">Price: <b>$19.99</b></p>
+                                <a href="#" class="btn btn-success">Add to
+                                    Cart</a>
+                            </div>
+                        </div>
+                        <div class="card col-lg-3" style="width: 18rem;">
+                            <img
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBFn8DfhJHiR7solAQ_kPWrZp5vW5fUfUVvg&s"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Flower Plants</h5>
+                                <p class="card-text">Price: <b>$19.99</b></p>
+                                <a href="#" class="btn btn-success">Add to
+                                    Cart</a>
+                            </div>
+                        </div>
+                        <div class="card col-lg-3" style="width: 18rem;">
+                            <img
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBFn8DfhJHiR7solAQ_kPWrZp5vW5fUfUVvg&s"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Flower Plants</h5>
+                                <p class="card-text">Price: <b>$19.99</b></p>
+                                <a href="#" class="btn btn-success">Add to
+                                    Cart</a>
+                            </div>
+                        </div>
+                        <div class="card col-lg-3" style="width: 18rem;">
+                            <img
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBFn8DfhJHiR7solAQ_kPWrZp5vW5fUfUVvg&s"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Flower Plants</h5>
+                                <p class="card-text">Price: <b>$19.99</b></p>
+                                <a href="#" class="btn btn-success">Add to
+                                    Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ========== End products ========== -->
+
+        </main>
+
+        <footer class="py-3 bg-dark">
+            <div class="container">
+                <h6 class="text-white">&copy; 2023 Plant Store. All rights
+                    reserved.</h6>
+            </div>
+        </footer>
+        <script src="app.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
+
+        <script>
+                document.addEventListener("DOMContentLoaded", function () {
+    
+    function showDateTime() {
+        const now = new Date();
+        const date = now.toLocaleDateString();
+        const time = now.toLocaleTimeString();
+
+        document.getElementById("dateTime").textContent =
+            `Date: ${date} | Time: ${time}`;
+    }
+
+    setInterval(showDateTime, 1000);
+    showDateTime(); 
+});
+            </script>
+    </body>
+</html>
